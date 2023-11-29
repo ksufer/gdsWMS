@@ -1,7 +1,7 @@
 <div align="center">
   <img src="static/img/logo.png" alt="GreaterWMS logo" width="200" height="auto" />
   <h1>GreaterWMS</h1>
-  <p>Open Source Inventory Management System </p>
+  <p>完全开源的仓库管理系统</p>
 
 <!-- Badges -->
 ![License: APLv2](https://img.shields.io/github/license/GreaterWMS/GreaterWMS)
@@ -25,189 +25,193 @@
 ![Vue](https://img.shields.io/badge/Vue-2.6.0-yellowgreen)
 ![NodeJS](https://img.shields.io/badge/NodeJS-14.19.3-yellowgreen)
 
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCPW1wciGMIEh7CYOdLnsloA?color=red&label=YouTube&logo=youtube&style=for-the-badge)](https://www.youtube.com/channel/UCPW1wciGMIEh7CYOdLnsloA)
-
+[![BiliBili](https://img.shields.io/badge/BiliBili-4987-red)](https://space.bilibili.com/407321291/channel/seriesdetail?sid=776320)
 </div>
 
-#### You can share your vacant warehouse space, use it for those in need, and generate income
-
-## :rocket: Link US
+## :rocket: 找到我们
 <h4>
-    <a href="https://www.56yhz.com/">Home Page</a>
+    <a href="https://www.56yhz.com/">官网首页</a>
 </h4>
 <h4>
-    <a href="https://production.56yhz.com/">Demo</a>
+    <a href="https://production.56yhz.com/">演示地址</a>
 </h4>
 <h4>
-  <a href="https://www.youtube.com/channel/UCPW1wciGMIEh7CYOdLnsloA">Video Tutorials</a>
+  <a href="https://space.bilibili.com/407321291?spm_id_from=333.1007.0.0">教程视频</a>
 </h4>
 <h4>
-  <a href="https://github.com/GreaterWMS/GreaterwMS/issues/new?template=bug_report.md&title=[BUG]">Report Bug</a>
+  <a href="https://github.com/GreaterWMS/GreaterwMS/issues/new?template=bug_report.md&title=[BUG]">提交一个Bug</a>
 </h4>
 <h4>   
-  <a href="https://github.com/GreaterWMS/GreaterWMS/issues/new?template=feature_request.md&title=[FR]">Request Feature</a>
+  <a href="https://github.com/GreaterWMS/GreaterWMS/issues/new?template=feature_request.md&title=[FR]">提交一个建议</a>
 </h4>
 <h4>
-  <a href="https://www.56yhz.com/zh/greaterwms.html">中文文档</a>
+  <a href="https://www.56yhz.com/greaterwms.html">英文文档</a>
 </h4>
 
-[//]: # (About the Project)
-## :star2: About the Project
+QQ技术交流群：289548524
 
-This Inventory management system is the currently Ford Asia Pacific after-sales logistics warehousing supply chain process.
-After I leave Ford, I start this project in order to help some who need it. 
-OneAPP Type. Support scanner PDA, mobile APP, desktop exe, website as well.
+[//]: # (About the Project)
+### :star2: 关于此项目
+
+该库存管理系统是，目前福特亚太区售后物流仓储供应链流程。
+离开福特后，我开始了这个项目。 为了帮助一些有需要的人。
+OneAPP 理念。 支持扫描设备PDA、手机APP、桌面exe、网站等。
 
 [//]: # (Function)
-## :dart: Function
+## :dart: 模块
 
-* [x] Multiple Warehouses
-* [x] Supplier Management
-* [x] Customer Management
-* [x] Scanner PDA
-* [x] Cycle Count
-* [x] Order Management
-* [x] Stock Control
-* [x] Safety Stock Show
-* [x] API Documents
-* [x] IOS APP Support
-* [x] Android APP Support
-* [x] Electron APP Support
-* [x] Auto Update
-* [x] i18n Support
-* [x] API Documents
+* [x] 多仓
+* [x] 供应商管理
+* [x] 客户管理
+* [x] 扫描设备PDA
+* [x] 盘点
+* [x] 订单管理
+* [x] 库存管理
+* [x] 安全库存
+* [x] API文档
+* [x] IOS APP支持
+* [x] Android APP支持
+* [x] Electron APP支持
+* [x] 自动更新
+* [x] i18n国际化
 
 [//]: # (Install)
-## :compass: Install
-Python install
+## :compass: 安装
+python安装
 - [python 3.8.10](https://www.python.org/downloads/release/python-3810/)
 
-Nodejs install
+nodejs安装
 - [nodejs 14.19.3](https://nodejs.org/download/release/v14.19.3/)
 
-Twisted install
-- Please google how to install Twisted , if you have some problem on install it . 
+Twisted安装
+- Twisted在某些情况下安装很困难，请自行百度安装方法
 
-Clone Project
+克隆代码
 ~~~shell
-git clone https://github.com/GreaterWMS/GreaterWMS.git
+git clone https://gitee.com/Singosgu/GreaterWMS.git
 ~~~
 
-### docker(Optional)
+### docker(可选择)
 ~~~shell
 cd GreaterWMS/
 docker-compose up -d
-# Change Baseurl
+# 修改请求地址
 # baseurl GreaterWMS/templates/public/statics/baseurl.txt
 docker-compose restart
 ~~~
 
 <h4>
-  <a href="https://www.56yhz.com/win_10.html">Windows X64</a>
+  <a href="https://www.56yhz.com/zh/win_10.html">Windows X64</a>
 </h4>
 <h4>
-  <a href="https://www.56yhz.com/centos_7.html">Centos 7</a>
+  <a href="https://www.56yhz.com/zh/centos_7.html">Centos 7</a>
 </h4>
 <h4>
-  <a href="https://www.56yhz.com/ubuntu_20.html">Ubuntu 20</a>
+  <a href="https://www.56yhz.com/zh/ubuntu_20.html">Ubuntu 20</a>
 </h4>
 
 [//]: # (development)
-## :hammer_and_wrench: How To Run Development Server:
+## :hammer_and_wrench: 怎么启动开发环境:
 
-- Run Backend:
+- 启动后端环境:
 ~~~shell
 cd GreaterWMS
 daphne -p 8008 greaterwms.asgi:application
 or
-daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application # lan
+daphne -b 0.0.0.0 -p 8008 greaterwms.asgi:application # 局域网
 ~~~
 
-- Run Frontend:
+- 启动前端环境:
 ~~~shell
 cd templates
-quasar d
+quasar d # http://localhost:8080
+or
+quasar dev # http://localhost:8080
 ~~~
 
-- Change Request Baseurl
+- 请求地址修改
+
 ~~~shell
 templates/public/statics/baseurl.txt
 ~~~
 
-- API Documents
+- API文档
 
 ~~~shell
 baseurl + '/docs/'
 ~~~
 
-### Companion Mobile APP
+### 配套的手机APP
 
-- App Source Code
+- App源码编译
 
 ~~~shell
 npm install cordova -g
 
 cd app
 yarn install
-## Development
+## 开发环境
 quasar d -m cordova -T [android, ios]
-## Deploy
+## 构建打包
 quasar build -m [android, ios]
 ~~~
 
-- You can directly use app if you don't want to build it 
+- 你不想编译也可以直接使用
 
-GreaterWMS is supported by a companion mobile app which allows users access to run the business well.
-It can scan the goods by your camera or your PDA scanner.
-
-[IOS](https://apps.apple.com/gb/app/intelligent-warehousing-gwms/id6444078526)
+[IOS](https://apps.apple.com/cn/app/%E6%99%BA%E8%83%BD%E4%BB%93%E5%82%A8%E8%BD%AF%E4%BB%B6gwms/id6444078526)
 
 [Android](https://production.56yhz.com/media/GWMS.apks)
 
-## Download Android installer tools
+GreaterWMS有配套的APP，支持手机扫描，和PDA扫描，配置下服务器请求地址即可
+
+## 下载apks安装工具
 
 !!! info "Android"
     
-    App store search
+    应用商店搜索
 
     Split APKs Installer 
 
-## Directly download installer tools
+## 或直接下载apks安装工具
 
 [Sai](https://po.56yhz.com/media/sai.apk)
 
-- Open Sai APP, choose GWMS.apks then install
+- 打开Sai APP，选择下载的GWMS.apks，即可完成安装
 
 [//]: # (publish)
-## :trumpet: How To Publish Your APP:
+## :trumpet: 怎么构建你的app:
 
-- Web Build:
+- 网页版构建:
 
 ~~~shell
 cd templates
-quasar build
+quasar build # /templates/dist/spa
 ~~~
 
 [//]: # (deploy)
-## :computer: How To Deploy Server:
+## :computer: 怎么部署到服务器:
 
 <h4>
-  <a href="https://www.56yhz.com/supervisor_process_guarded.html">Supervisor Process Guarded</a>
+  <a href="https://www.56yhz.com/zh/supervisor_process_guarded.html">Supervisor教程</a>
 </h4>
 <h4>
-  <a href="https://www.56yhz.com/nginx_config.html">Nginx Config</a>
+  <a href="https://www.56yhz.com/zh/nginx_config.html">Nginx配置</a>
 </h4>
 
-If the server has SSL enabled, please use HTTPS and WSS, if SSL is not enabled, use HTTP and WS
-
-The front-end code needs to be rebuilt after modification.
+记得启用ssl的话，需要额外配置
+在前端代码中进行编辑
 
 ## Show
 <div align="left">
-    <img src="static/img/GreaterWMS_en.png" alt="GreaterWMS home" width="" height="400" />
+    <img src="static/img/GreaterWMS.png" alt="GreaterWMS home" width="" height="400" />
 </div>
 <div align="left">
     <img src="static/img/mobile_splash.jpg" alt="GreaterWMS splash" width="200" height="400" />
-    <img src="static/img/mobile_dn_en.jpg" alt="GreaterWMS dn" width="200" height="400" />
-    <img src="static/img/mobile_equ_en.jpg" alt="GreaterWMS goods" width="200" height="400" />
+    <img src="static/img/mobile_dn.jpg" alt="GreaterWMS dn" width="200" height="400" />
+    <img src="static/img/mobile_equ.jpg" alt="GreaterWMS goods" width="200" height="400" />
 </div>
+
+<!-- ABOUT AUTHOR -->
+## :bowing_man: 关于作者
+
+[Elvis.Shi](https://gitee.com/GreaterWMS/GreaterWMS/wikis/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E4%BB%8E%E4%B8%80%E4%B8%AA%E7%89%A9%E6%B5%81%E8%8F%9C%E9%B8%9F%EF%BC%8C%E4%B8%80%E7%9B%B4%E5%81%9A%E5%88%B0500%E5%BC%BA%E4%BA%9A%E5%A4%AA%E5%8C%BAChina%20PDC%20Manager%E7%9A%84)
